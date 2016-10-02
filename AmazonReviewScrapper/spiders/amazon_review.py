@@ -1,7 +1,14 @@
-# -*- coding: utf-8 -*-
 import scrapy
 import csv
 from AmazonReviewScrapper.items import ReviewsItem
+
+__author__ = "Jayanth Kanive"
+__license__ = "MIT"
+__version__ = "1.0.0"
+__maintainer__ = "Jayanth Kanive"
+__email__ = "mailtokanive@gmail.com"
+__status__ = "Development"
+
 
 with open('amazonreviewpages.txt', 'rU') as file:
     rows = csv.reader(file)
