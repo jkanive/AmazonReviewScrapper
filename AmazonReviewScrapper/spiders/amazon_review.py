@@ -10,11 +10,11 @@ __email__ = "mailtokanive@gmail.com"
 __status__ = "Development"
 
 
-with open('amazonreviewpages.txt', 'rU') as file:
-    rows = csv.reader(file)
-    urls = []
-    for row in rows:
-        urls.append(row)
+# with open('amazonreviewpages.txt', 'rU') as file:
+#     rows = csv.reader(file)
+#     urls = []
+#     for row in rows:
+#         urls.append(row)
 
 
 class AmazonReviewSpider(scrapy.Spider):
