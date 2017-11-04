@@ -53,7 +53,7 @@ If you run into error while installing please resolve it by checking Google or S
     ```
 
 **Disclaimer:** Amazon may blacklist your IP address. Jayanth Kanive is not responsible for any damage that may be caused by using this application.
-
+ 
 **Note** You can vary the download_delay in the ./spider/amazon_review.py to process the request a little slower.
 ```
 download_delay = 10
